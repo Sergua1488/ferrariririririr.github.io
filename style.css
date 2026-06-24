@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  padding: 100px;
+  background-image: url(https://brook-drive.ru/wp-content/uploads/2024/11/ferrari-488-spider-16.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #850400;
+  margin-bottom: 20px;
+}
+
+.glow-text {
+  color: #850400;
+  text-shadow:
+    0 0 5px #e10600,
+    0 0 10px #e10600,
+    0 0 20px #ff2a1a,
+    0 0 30px #ff2a1a;
+}
+
+header h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+header a {
+  background-color: #e10600;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 300ms;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: #ff2a1a;
+  transform: scale(100ms);
+}
+
+div.about,
+.Technologyes,
+.autosport {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 30px;
+  color: #e10600;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 30px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.pp {
+  font-size: 30px;
+}
+
+.automobiles {
+  padding: 60px 20px;
+  background: #424242;
+  background: radial-gradient(
+    circle,
+    rgba(66, 66, 66, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #0a0a0a;
+  border: 2px solid #e10600;
+  border-radius: 10px;
+  width: 280px;
+  overflow: hidden;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #e10600;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #e10600;
+}
+
+.card h1 {
+  font-size: 20px;
+  color: #e10600;
+  padding: 15px;
+}
+
+.card p {
+  padding: 0 15px 15px;
+  color: #ccc;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0a0a0a;
+  color: #666;
+  border-top: 1px solid #e10600;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+}
